@@ -6,11 +6,11 @@ import edu.rpi.legup.model.tree.Tree;
 import edu.rpi.legup.model.tree.TreeNode;
 import edu.rpi.legup.model.tree.TreeTransition;
 import edu.rpi.legup.save.InvalidFileFormatException;
-import puzzles.battleship.rules;
-import puzzles.lightup.rules;
-import puzzles.lightup.rules.CannotLightACellContradictionRuleTest;
-import puzzles.nurikabe.rules;
-import puzzles.shorttruthtable.rules;
+//import puzzles.battleship.rules;
+//import puzzles.lightup.rules;
+//import puzzles.lightup.rules.CannotLightACellContradictionRuleTest;
+//import puzzles.nurikabe.rules;
+//import puzzles.shorttruthtable.rules;
 
 public final class TestUtilities {
     public static void importTestBoard(String fileName, Puzzle puzzle) throws InvalidFileFormatException {
