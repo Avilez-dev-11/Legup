@@ -51,28 +51,34 @@ public class SkyscrapersBoard extends GridBoard {
     }
 
     /**
+<<<<<<< Updated upstream
     * Returns a list of the eastern clues ordered from loc.y = 0->max
     */
+=======
+     * @return Returns a list of the eastern clues ordered from loc.y = 0 to max
+     * 
+     */
+>>>>>>> Stashed changes
     public ArrayList<SkyscrapersClue> getEastClues() {
         return eastClues;
     }
 
     /**
-     * Returns a list of the southern clues ordered from loc.x = 0->max
+     * @return Returns a list of the southern clues ordered from loc.x = 0 to max
      */
     public ArrayList<SkyscrapersClue> getSouthClues() {
         return southClues;
     }
 
     /**
-     * Returns a list of the western clues ordered from loc.y = 0->max
+     * @return a list of the western clues ordered from loc.y = 0 to max
      */
     public ArrayList<SkyscrapersClue> getWestClues() {
         return westClues;
     }
 
     /**
-     * Returns a list of the northern clues ordered from loc.x = 0->max
+     * @return Returns a list of the northern clues ordered from loc.x = 0 to max
      */
     public ArrayList<SkyscrapersClue> getNorthClues() {
         return northClues;
@@ -160,7 +166,11 @@ public class SkyscrapersBoard extends GridBoard {
      * Gets the cells of a certain type directly adjacent to a given cell
      *
      * @param cell at the center,
+<<<<<<< Updated upstream
      *        type of cell to collect
+=======
+     * @param type of cell to collect
+>>>>>>> Stashed changes
      * @return list of cells of the given type
      */
     public List<SkyscrapersCell> getAdjacent(SkyscrapersCell cell, SkyscrapersType type) {
@@ -189,7 +199,11 @@ public class SkyscrapersBoard extends GridBoard {
      * Gets the cells of a certain type directly diagonal to a given cell
      *
      * @param cell at the center,
+<<<<<<< Updated upstream
      *        type of cell to collect
+=======
+     * @param type of cell to collect
+>>>>>>> Stashed changes
      * @return list of cells of the given type
      */
     public List<SkyscrapersCell> getDiagonals(SkyscrapersCell cell, SkyscrapersType type) {
@@ -218,8 +232,13 @@ public class SkyscrapersBoard extends GridBoard {
      * Gets the cells of a certain type in a given row/column
      *
      * @param index: y pos of row or x pos of col,
+<<<<<<< Updated upstream
      *        type of cell to collect,
      *        boolean true if row, false if col
+=======
+     * @param type of cell to collect,
+     * @param boolean true if row, false if col
+>>>>>>> Stashed changes
      * @return list of cells of the given type, ordered west to east or north to south
      */
     public List<SkyscrapersCell> getRowCol(int index, SkyscrapersType type, boolean isRow) {

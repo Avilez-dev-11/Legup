@@ -72,4 +72,9 @@ public class AdjacentShipsContradictionRuleTest {
         Assert.assertNull(RULE.checkContradiction(
                 board));
     }
+    public void tester() throws InvalidFileFormatException{
+        OrthogonalAdjacentTest();
+        InvalidOrthogonalAdjacentTest();
+        DiagonalAdjacentTest();
+    }
 }

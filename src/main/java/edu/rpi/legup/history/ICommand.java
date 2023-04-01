@@ -8,6 +8,7 @@ public interface ICommand {
 
     /**
      * Determines whether this command can be executed
+     * @return if command can be executed successfully
      */
     boolean canExecute();
 

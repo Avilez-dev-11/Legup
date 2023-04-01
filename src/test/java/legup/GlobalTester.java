@@ -27,7 +27,11 @@ public final class GlobalTester {
 //        BattleshipContradictionTest.OrthogonalAdjacentTest();
 //        BattleshipContradictionTest.InvalidOrthogonalAdjacentTest();
         // Setting up a Battleship tester for the Finish With Ships Direct Rule Test
+<<<<<<< Updated upstream
         FinishWithShipsBasicRuleTests BattleshipDirectTest = new FinishWithShipsBasicRuleTests();
+=======
+        FinishWithShipsDirectRuleTests BattleshipDirectTest = new FinishWithShipsDirectRuleTests();
+>>>>>>> Stashed changes
 
     }
 
@@ -41,6 +45,7 @@ public final class GlobalTester {
         CannotLightACellContradictionRuleTest LightupCantLightCellContradictionTest = new CannotLightACellContradictionRuleTest();
 
         // Setting up a Lightup tester for the Empty Cell Light Direct Rule Test
+<<<<<<< Updated upstream
         EmptyCellinLightBasicRuleTest LightupEmptyCellTest = new EmptyCellinLightBasicRuleTest();
 
         // Setting up a Lightup tester for the Empty Cell in Light Test
@@ -62,6 +67,26 @@ public final class GlobalTester {
         MustLightBasicRuleTest MustLightTest = new MustLightBasicRuleTest();
 
         // Setting up a Lightup tester for the Satisfy Number Basic Rule Test
+=======
+        EmptyCellinLightDirectRuleTest LightupEmptyCellTest;
+
+        // Setting up a Lightup tester for the Empty Corners Test
+        EmptyCornersDirectRuleTest EmptyCornersTest;
+
+        // Setting up a Lightup tester for the Finish With Bulbs Direct Rule Test
+        FinishWithBulbsDirectRuleTest FinishWithBulbsTest = new FinishWithBulbsDirectRuleTest();
+
+        // Setting up a Lightup tester for the Finish With Empty Direct Rule Test
+        FinishWithEmptyDirectRuleTest FinishWithEmptyTest = new FinishWithEmptyDirectRuleTest();
+
+        // Setting up a Lightup tester for the Finish With Light Or Empty Direct Rule Test
+        LightOrEmptyCaseRuleTest FinishWithLightOrEmptyTest = new LightOrEmptyCaseRuleTest();
+
+        // Setting up a Lightup tester for the Must Light Direct Rule Test
+        MustLightDirectRuleTest MustLightTest = new MustLightDirectRuleTest();
+
+        // Setting up a Lightup tester for the Satisfy Number Direct Rule Test
+>>>>>>> Stashed changes
         SatisfyNumberCaseRuleTest SatisfyNumberTest = new SatisfyNumberCaseRuleTest();
 
         // Setting up a Lightup tester for the Too Few Bulbs Contradiction Rule Test
@@ -76,11 +101,19 @@ public final class GlobalTester {
     /* NURIKABE TESTER FOR THE GIVEN RULE TESTS IN PUZZLES FOLDER */
     public static void NurikabeTester(){
 
+<<<<<<< Updated upstream
         // Setting up a Nurikabe tester for the Black Between Regions Basic Rule Test
         BlackBetweenRegionsBasicRuleTest BlackBetweenRegionsTest = new BlackBetweenRegionsBasicRuleTest();
 
         // Setting up a Nurikabe tester for the Black Bottle Neck Basic Rule Test
         BlackBottleNeckBasicRuleTest BlackBottleNeckTest = new BlackBottleNeckBasicRuleTest();
+=======
+        // Setting up a Nurikabe tester for the Black Between Regions Direct Rule Test
+        BlackBetweenRegionsDirectRuleTest BlackBetweenRegionsTest = new BlackBetweenRegionsDirectRuleTest();
+
+        // Setting up a Nurikabe tester for the Black Bottle Neck Direct Rule Test
+        BlackBottleNeckDirectRuleTest BlackBottleNeckTest = new BlackBottleNeckDirectRuleTest();
+>>>>>>> Stashed changes
 
         // Setting up a Nurikabe tester for the Black or White Case Rule Test
         BlackOrWhiteCaseRuleTest BlackOrWhiteTest = new BlackOrWhiteCaseRuleTest();
@@ -88,12 +121,21 @@ public final class GlobalTester {
         // Setting up a Nurikabe tester for the Black Square Contradiction Rule Test
         BlackSquareContradictionRuleTest BlackSquareTest = new BlackSquareContradictionRuleTest();
 
+<<<<<<< Updated upstream
         // Setting up a Nurikabe tester for the Fillin Black Basic Rule Test
         FillinBlackBasicRuleTest FillinBlackTest = new FillinBlackBasicRuleTest();
 
 
         // Setting up a Nurikabe tester for the Fillin White Basic Rule Test
         FillinWhiteBasicRuleTest FillinWhiteTest = new FillinWhiteBasicRuleTest();
+=======
+        // Setting up a Nurikabe tester for the Fillin Black Direct Rule Test
+        FillinBlackDirectRuleTest FillinBlackTest = new FillinBlackDirectRuleTest();
+
+
+        // Setting up a Nurikabe tester for the Fillin White Direct Rule Test
+        FillinWhiteDirectRuleTest FillinWhiteTest = new FillinWhiteDirectRuleTest();
+>>>>>>> Stashed changes
 
         // Setting up a Nurikabe tester for the Isolate Black Contradiction Rule Test
         IsolateBlackContradictionRuleTest IsolateBlackTest = new IsolateBlackContradictionRuleTest();
@@ -104,11 +146,19 @@ public final class GlobalTester {
         // Setting up a Nurikabe tester for the No Numbers Contradiction Rule Test
         NoNumbersContradictionRuleTest NoNumbersTest = new NoNumbersContradictionRuleTest();
 
+<<<<<<< Updated upstream
         // Setting up a Nurikabe tester for the Prevent Black Square Basic Rule Test
         PreventBlackSquareBasicRuleTest PreventBlackSquaresTest = new PreventBlackSquareBasicRuleTest();
 
         // Setting up a Nurikabe tester for the Surround Region Basic Rule Test
         SurroundRegionBasicRuleTest SurroundRegionTest = new SurroundRegionBasicRuleTest();
+=======
+        // Setting up a Nurikabe tester for the Prevent Black Square Direct Rule Test
+        PreventBlackSquareDirectRuleTest PreventBlackSquaresTest = new PreventBlackSquareDirectRuleTest();
+
+        // Setting up a Nurikabe tester for the Surround Region Direct Rule Test
+        SurroundRegionDirectRuleTest SurroundRegionTest = new SurroundRegionDirectRuleTest();
+>>>>>>> Stashed changes
 
         // Setting up a Nurikabe tester for the Too Few Spaces Contradiction Rule Test
         TooFewSpacesContradictionRuleTest TooFewSpacesTest = new TooFewSpacesContradictionRuleTest();
@@ -116,8 +166,13 @@ public final class GlobalTester {
         // Setting up a Nurikabe tester for the Too Many Spaces Contradiction Rule Test
         TooManySpacesContradictionRuleTest TooManySpacesTest = new TooManySpacesContradictionRuleTest();
 
+<<<<<<< Updated upstream
         // Setting up a Nurikabe tester for teh White Bottle Neck Basic Rule Test
         WhiteBottleNeckBasicRuleTest WhiteBottleNeckTest = new WhiteBottleNeckBasicRuleTest();
+=======
+        // Setting up a Nurikabe tester for teh White Bottle Neck Direct Rule Test
+        WhiteBottleNeckDirectRuleTest WhiteBottleNeckTest = new WhiteBottleNeckDirectRuleTest();
+>>>>>>> Stashed changes
 
     }
 
